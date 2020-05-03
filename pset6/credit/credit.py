@@ -15,7 +15,7 @@ def check(digits):
     elif digits[0] == '4':
         candidate = 3
 
-    digits = digits[::-1]
+    digits = digits[::-1] # reverse string
     if candidate:
         sum = 0
         for i in range(len(digits)):
